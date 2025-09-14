@@ -8,7 +8,6 @@ COPY . /app
 
 RUN npm install
 
-ENV ATLAS_URI=mongodb://mongouser:mongopass@db
 ENV PORT=5050
 
 EXPOSE 5050
